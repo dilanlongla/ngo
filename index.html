@@ -8,6 +8,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- fontawesome CSS -->
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <style>
         .masthead {
             height: 80vh;
@@ -16,6 +19,35 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+        }
+        
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1500px;
+            }
+        }
+        
+        .fa {
+            padding: 10px;
+            font-size: 15px;
+            text-align: center;
+            border-radius: 50%;
+            margin: 5px 2px;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
         }
     </style>
 </head>
@@ -35,13 +67,13 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -61,22 +93,48 @@
 
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center">Page Content</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 text-center">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/bg8.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 text-center">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/bg8.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 text-center">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/bg8.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
+
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
+        <div class="container text-center ">
             <small>Copyright &copy; Your Website</small>
         </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.slim.min.js "></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
 </body>
 
 </html>
